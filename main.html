@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>公交路线规划－使用默认样式</title>
+    <link rel="stylesheet" href="https://cache.amap.com/lbs/static/main.css"/>
+    <script type="text/javascript"
+            src="https://webapi.amap.com/maps?v=1.4.2&key=addd70f300ccf3d6816a53bac4bc1536"></script>
+    <script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+    <script type="text/javascript"
+            src="main.js"></script>
+
+    <style type="text/css">
+        #panel {
+            position: absolute;
+            background-color: white;
+            max-height: 80%;
+            overflow-y: auto;
+            top: 10px;
+            right: 10px;
+            width: 250px;
+            border: solid 1px silver;
+
+        }
+
+        #mapContainer {
+            z-index: 0;
+        }
+
+        button {
+            position: relative;
+            z-index: 20;
+            background-color: rgb(219, 234, 235);
+            border-width: 3px;
+            border-color: rgb(173, 210, 255);
+            color: rgb(100, 100, 100);
+        }
+    </style>
+</head>
+<body>
+<div id="mapContainer"></div>
+<div id="panel">
+</div>
+<button>返回主页</button>
+<script type="text/javascript">
+
+    //基本地图加载
+    var map = new AMap.Map("mapContainer", {
+        resizeEnable: true,
+        center: [113.3909,23.067445],//地图中心点
+        zoom: 15 //地图显示的缩放级别
+    });
+    main(**0, **1, **2);
+    
+</script>
+ <script type="text/javascript" src="https://webapi.amap.com/demos/js/liteToolbar.js"></script>
+  
+</body>
+</html>

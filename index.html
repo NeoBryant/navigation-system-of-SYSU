@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>map</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./image/myico.png" media="screen" />
+  <script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+  <div id="completeMap">
+    <div id="map"></div>
+    <div id="pointList">
+      <ul>
+        <li id="0" class="spot"><p class="info">中山大学牌坊，简称“中大牌坊”，位于中大东校区北门、滨江东珠江南岸。整座门楼用钢筋三合土筑成，外饰面用花岗石砌成。前后石柱分两行，共分五门。刻有“国立中山大学”六个大字。</p></li>
+        <li id="1" class="spot"><p class="info">中山大学东校区行政楼，整个东校区的行政中心，统筹管理各大学院。调控教学管理。各种校内大型公共事务，各种校内大型活动，各个学院方针都需要在这里的到决策。</p></li>
+        <li id="2" class="spot"><p class="info overFlowed">中山大学纳米技术研究中心，多学科交叉研究单位，其学科背景涉及材料物理、凝聚态物理、光学、和微电子学等。成立于2001年，是中山大学重要的多学科交叉研究单位。</p></li>
+        <li id="3" class="spot"><p class="info">中山大学东校区公教楼，东校区所有专业的理论课程都在公教楼上课，教学楼内设施齐全，环境一流。每次下课都会检查设备是否有问题，确保带给同学们最好的上课体验，让同学们尽可能多的学到知识。</p></li>
+        <li id="4" class="spot"><p class="info">中山大学东校区图书馆是中山大学图书馆的一个分支，是东校区的标志性建筑，荣获2006年度中国建筑工程鲁班奖（国家优质工程奖）。整个建筑南低北高，气势宏伟非凡。</p></li>
+        <li id="5" class="spot"><p class="info">中山大学东校区南学院楼,是位于南部的学院楼，包括传播与设计学院、工学院等等，这里处理许多的学生事务，各个学院课程安排。这里也是老师们办公室所在地，提供给老师们课后的休息办公。</p></li>
+        <li id="6" class="spot"><p class="info">中山大学东校区北实验楼,是位于北部的实验楼，主要是数据科学与计算机学院和电子相关专业的实验室，上课时间可以提供给同学们上课做实验，课后也开放给同学们进行上课未完成的实验或者其他实验。</p></li>
+        <li id="7" class="spot"><p class="info">中山大学东校区南实验楼，是位于南部的实验楼，主要是理科工科相关专业院系同学们的实验室，设备齐全，设备更新快，以保证给同学们提供最好的实验学习环境。</p></li>
+        <li id="8" class="spot"><p class="info">东校区西田径场，有一条400米标准跑道、一个假草皮足球场以及其他田赛运动场地，包括跳远、体操、跳高等项目。假草皮足球场可以作为一个大足球场或者两个小足球场使用。</p></li>
+        <li id="9" class="spot"><p class="info">中山大学东校区体育馆，体育馆内设备齐全，具有若干篮球场，若干羽毛球场，若干排球场，以及环绕场地四周的观众席。各种校级篮球、排球、羽毛球、飞镖比赛都会在体育馆内举行。</p></li>
+        <li id="10" class="spot"><p class="info">东校区东田径场，拥有一条400米标准跑道、一个真草皮足球场以及少数田赛运动场地。这里还有一个大型观景台。真草皮足球场可以作为一个大足球场或者两个小足球场使用。</p></li>
+        <li id="11" class="spot"><p class="info">第一食堂，这里是中山大学食堂的代表，美食众多。早餐样式全面丰富，饺子、面包、面食、粥等。午餐和晚餐同样丰盛，各地的菜系让人目不暇接。如果想要在校内吃饭，第一食堂是个不错的选择。</p></li>
+        <li id="12" class="spot"><p class="info">gogo新天地，位于小谷围街中二横路1号，座落广州大学城最优越的核心地段。基本上是大学城内最大的商城。可以在这里购物吃饭，如果想要在中山大学东校区附近吃饭，这里也是不错的选择</p></li>
+        <li id="13" class="spot"><p class="info">中山大学东校区南门，这是中山大学东校区的另外一个出口，在学生公寓的最尽头，坐落在内环外侧。对面是大学城体育中心，体育中心经常举办大型的活动诸如歌星们的演唱会。
+</p></li>
+      </ul>
+    </div>
+  </div>
+  <!-- buttonForUser -->
+  <button id="clickToFindWalkPath">步行路线</button>
+  <button id="clickToFindDrivePath">行车路线</button>
+</body>
+</html>
+
